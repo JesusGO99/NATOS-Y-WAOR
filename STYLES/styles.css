@@ -56,6 +56,12 @@ a:hover{
 
 /* MAIN INICIO */
 
+dialog{
+    width: 700px;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
 .mainInicio{
     width: 100vw;
     height: 200vh;
