@@ -356,3 +356,125 @@ button:hover{
     height: 300px;
     margin: 10px;
 }
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 768px) {
+    header,
+    .headerInicio,
+    .mainInicio,
+    .mainBio,
+    .mainDiscografia,
+    .mainCanciones,
+    .mainVideoclips,
+    .mainGaleria,
+    footer {
+        display: flex;
+        flex-direction: column !important;
+        height: auto;
+    }
+    .headerInicio{
+        margin-top: 130px;
+    }
+    .primerTexto,
+    .segundoTexto,
+    .terceroTexto,
+    .cuartoTexto{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+        width: 90vw;
+        height: auto;
+    }
+    .introduccionMain,
+    .videoclip,
+    .parrafoMainInicio,
+    .contenedorSlideDisco,
+    .portadaDiscos,
+    .imgPortadaDisco,
+    .canciones,
+    .imgCanciones,
+    .iframeVideoclips,
+    .fotoZara,
+    .showZara {
+        width: 90vw !important;
+        height: auto !important;
+        margin: 10px auto;
+    }
+
+    .parrafoMainBio {
+        width: 90vw;
+        margin: 20px auto;
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .redesSociales {
+        width: 60vw;
+        justify-content: space-around;
+    }
+
+    nav a, li {
+        font-size: 0.9em;
+        margin: 3px;
+    }
+
+    .imagenFondo, 
+    .imagenFondo2, 
+    .imagenFondo3 {
+        background-size: cover;
+        background-position: center;
+        background-size: 150%;
+        background-repeat: no-repeat;
+    }
+    .contenedorSlideDisco{
+        width: 90vw;
+        height: auto;
+    }
+    .imagenesSlide{
+        width: auto;
+        height: auto;
+    }
+    .discografiaCompleta{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+        width: 90vw;
+        height: auto;
+    }
+    .contenedorCanciones{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+        width: 90vw;
+        height: auto;
+    }
+    .numerosCanciones{
+        margin-bottom: 30px;
+    }
+    .fotoZara{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        height: auto;
+    }
+    .mainVideoclips{
+        margin-top: 200px;
+    }
+}
