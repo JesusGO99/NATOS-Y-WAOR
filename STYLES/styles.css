@@ -477,4 +477,8 @@ button:hover{
     .mainVideoclips{
         margin-top: 200px;
     }
+    .mainGaleria{
+        height: auto;
+        margin-top: 150px;
+    }
 }
